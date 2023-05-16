@@ -1,0 +1,27 @@
+
+ENTIDADES
+- Livro
+- Autor
+- Usuário
+- Empréstimo
+  - usuario_id
+  - data_emprestimo
+  (itens)
+- Empréstimo_Livro
+  - emprestimo_id
+  - livro_id
+  - data_prevista
+  - data_devolução // Para poder multar
+
+
+
+FUNCIONALIDADES
+- CRUD de livros
+- CRUD de autores
+- Criar empréstimos
+- Renovar empréstimo_livro
+- Devolver empréstimo_livro
+- Controle de exemplares (simplificado)
+- Multar usuários
+
+
