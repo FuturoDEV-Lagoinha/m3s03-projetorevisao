@@ -22,7 +22,7 @@ public class AutorService {
 
     public Autor salvar(Autor autor) throws Exception {
 
-        // Se está editando e "AUTOR" não existir
+        // Se está editando e "Autor" não existir
         if (autor.getId() != null) {
             buscarPorId(autor.getId());
         }
