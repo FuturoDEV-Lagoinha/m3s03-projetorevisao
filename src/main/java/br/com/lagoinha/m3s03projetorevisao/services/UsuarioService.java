@@ -14,8 +14,6 @@ public class UsuarioService {
     @Autowired
     private UsuarioRepository usuarioRepository;
 
-    // Salvar / Consultar / Apagar
-
     public List<Usuario> buscarTodos() {
         return usuarioRepository.findAll();
     }

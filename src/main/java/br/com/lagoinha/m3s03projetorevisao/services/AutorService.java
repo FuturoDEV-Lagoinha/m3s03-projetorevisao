@@ -14,8 +14,6 @@ public class AutorService {
     @Autowired
     private AutorRepository autorRepository;
 
-    // Salvar / Consultar / Apagar
-
     public List<Autor> buscarTodos() {
         return autorRepository.findAll();
     }

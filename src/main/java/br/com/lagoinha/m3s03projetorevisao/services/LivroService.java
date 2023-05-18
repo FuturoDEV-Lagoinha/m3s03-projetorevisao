@@ -18,8 +18,6 @@ public class LivroService {
     @Autowired
     private AutorService autorService;
 
-    // Salvar / Consultar / Apagar
-
     public List<Livro> buscarTodos() {
         return livroRepository.findAll();
     }
